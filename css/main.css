@@ -28,14 +28,7 @@ footer ul li a{
   color: #8c1515;
   font-family: "Source Sans Pro",sans-serif;
   font-weight: 600;
-}
-.footerf{
-  text-align: left !important;
-}
-@media screen and (max-width: 1000px){
-  .footerf{
-    text-align: center !important;
-  }
+  
 }
 footer ul li a:hover{
   color: #8c1515;
