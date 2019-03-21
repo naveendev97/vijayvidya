@@ -1,0 +1,39 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+    
+}
+.card{
+  border: none !important;
+}
+.card-title{
+  color: #01843e;
+  font-weight: bold;
+}
+.card .btn{
+  background-color: #393186;
+  color: white;
+}
+.card .btn:hover{
+  color: white;
+}
+
+/*footer*/
+footer{
+  background-color: #d7e9d1;
+}
+footer ul li a{
+  color: #8c1515;
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: 600;
+  
+}
+footer ul li a:hover{
+  color: #8c1515;
+}
+.footerB{
+  background-color: #01843e;
+  color: white;
+}
