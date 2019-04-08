@@ -48,3 +48,24 @@ footer ul li a:hover{
   font-family: "Source Sans Pro",sans-serif;
   color: #01843e;
 }
+
+/*About us
+=================================*/
+.about-us{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Aim
+=================================*/
+.aim{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0;
+}
+.aim li{
+  list-style: none;
+}
+.aim li::before{
+  content: '✓';
+  color: #01843e;
+  padding-left: 5px;
+  padding-right: 5px;
+} 
