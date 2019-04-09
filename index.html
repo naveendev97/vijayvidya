@@ -14,6 +14,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.2/plyr.polyfilled.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.2/plyr.css" />
   <script> 
     $(function(){
       $("#header").load("menu.html"); 
@@ -54,7 +56,7 @@
     </div>
     <!--Events-->
     <h3 class="text-center pt-5" style="color: #01843e;">Upcoming Events</h3>
-    <div class="row container-fluid pt-4 mx-auto">
+    <div class="row container pt-4 mx-auto">
       <div class="col-lg-4 text-center">
         <div class="card shadow mb-5 bg-white rounded mx-auto" style="width: 18rem;">
           <img src="http://www.littleowlsnursery.com/assets/park.jpg" class="card-img-top" alt="...">
@@ -93,7 +95,7 @@
     <h3 class="text-center pt-5" style="color: #01843e;">Our Approach</h3>
     <div class="row container mx-auto pt-1">
       <div class="col-lg-4 ">
-        <img src="https://static1.squarespace.com/static/5bdc9a953917ee92aca73364/t/5c01c94a40ec9a4c43dbeb5a/1544131184726/ThePrimarySchool.JPG?format=750w" class="img-fluid rounded" alt="">
+        <img  src="https://static1.squarespace.com/static/5bdc9a953917ee92aca73364/t/5c01c94a40ec9a4c43dbeb5a/1544131184726/ThePrimarySchool.JPG?format=750w"  class="img-fluid rounded" alt="">
         <h5 class="text-center apr-title py-2">WE START EARLY</h5>
       </div>
       <div class="col-lg-4">
@@ -105,10 +107,20 @@
         <h5 class="text-center apr-title py-2">WE WORK WITH - NOT AROUND - FAMILIES</h5>
       </div>
     </div>
-
+    <div class="container-fluid">
+      <video  poster="img/sc14.jpeg" id="player" playsinline controls>
+        <source src="https://storage.googleapis.com/wedsam/vijayvidya.mp4" type="video/mp4" />
+        <source src="https://storage.googleapis.com/wedsam/vijayvidya.mp4" type="video/webm" />
+    
+        <!-- Captions are optional -->
+        <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default />
+    </video>
+    </div>
     <!--Footer-->
     <div id="footer"></div>
-   
+    <script>
+      const player = new Plyr('#player');
+  </script>
   
 </body>
 </html>
