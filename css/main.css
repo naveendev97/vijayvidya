@@ -19,6 +19,7 @@ html,body {
 .card .btn:hover{
   color: white;
 }
+/*videoplay*/
 
 /*footer*/
 footer{
@@ -54,12 +55,53 @@ footer ul li a:hover{
 .about-us{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/*About Founder
+=================================*/
+.founder{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*School emblem
+=================================*/
+.emblem{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 /*Aim
 =================================*/
 .aim{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 0;
 }
+/*management
+=================================*/
+.management{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0;
+}
+/*prayers
+=================================*/
+.prayer{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0;
+}
+
+/*Rules and regulation
+=================================*/
+.regu{
+  font-family: "Source Sans Pro",sans-serif;
+}
+.hr{
+  background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+/*fee
+=================================*/
+.fee{
+  font-family: "Source Sans Pro",sans-serif;
+}
+
+/*aim and objective
+=================================*/
 .aim li{
   list-style: none;
 }
